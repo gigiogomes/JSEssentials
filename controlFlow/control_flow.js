@@ -2,7 +2,7 @@ let userRole = "admin";
 let accessLevel;
 
 if (userRole === "admin") {
-    accessLevel = "Full acces granted";
+    accessLevel = "Full access granted";
 } else if (userRole === "manager") {
     accessLevel = "Limited access granted";
 } else {
